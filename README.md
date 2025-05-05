@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "3.3: создание и загрузка приложения на хостинг"  
 - index.php - (в папке web) Стартовая страница сайта  
-- [Ссылка на сайт на хостинге Timeweb](https://github.com/netology-code/php-heroku-template-simple/archive/master.zip)  
+- [Ссылка на сайт на хостинге Timeweb](https://cq85227.tw1.ru/phpHomeWork8/web/)  
 
 ----  
 

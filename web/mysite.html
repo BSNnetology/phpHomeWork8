@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>"PHP. Домашнее задание 8.2: создание и загрузка приложения на хостинг (сайт)"</title>   
+</head>
+<!-- ======================================= -->
+<body>        
+    <div style="width: 500px; margin-left: auto; margin-right: auto; 
+        margin-top: 10px; padding: 5px; padding-bottom: 15px; background-color:Gainsboro;">
+        
+        <!-- Приветствие пользователя -->
+        <h2>
+            Приветствую Вас, 
+            <?php echo json_encode($_SESSION['userName'], JSON_UNESCAPED_UNICODE); ?>...
+        </h2>
+
+        <!-- Ссылка на анлогин -->
+        <p>Для выхода нажмите тут:
+            <a href="./exit.php">Выходиз аккаунта...</a>
+        </p>
+
+        <!-- Картинка для красоты )))) -->
+        <img style="width: 100%; object-fit: contain;" src="./mysite.png">
+    </div>
+</body>
+</html>
